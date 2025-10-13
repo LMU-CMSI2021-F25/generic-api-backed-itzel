@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson:wght@400;600&display=swap");
+
+body {
+  font-family: "Crimson", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #df8468, #785eeb); 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100px;
+  padding: 1rem;
+}
+
+.App {
+  background-color: white;
+  padding: 3px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.App img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1px;
+}
+
+h1 {
+  font-family: 'Crimson', serif; 
+  color: #2b3945;
+  margin-bottom: 1px;
+  text-shadow: 2px 2px rgb(120, 94, 235);
+}
+
+p {
+  color: #290505;
+  margin-bottom: 2px;
+}
+
+.search {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #785eeb; 
+  box-shadow: 0 0 0 3px rgba(120, 94, 235, 0.5); 
+}
